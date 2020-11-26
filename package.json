@@ -1,8 +1,8 @@
 {
   "name": "trudohod",
   "scripts": {
-    "watch": "NODE_ENV=development webpack-dev-server",
-    "build": "NODE_ENV=production webpack"
+    "watch": "NODE_ENV=development npx webpack-dev-server",
+    "build": "NODE_ENV=production npx webpack"
   },
   "dependencies": {
     "copy-webpack-plugin": "^5.1.1",

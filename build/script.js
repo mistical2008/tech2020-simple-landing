@@ -86,25 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./css/_style.css":
-/*!************************!*\
-  !*** ./css/_style.css ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./css/_style.css?");
-
-/***/ }),
-
 /***/ "./js/_script.js":
 /*!***********************!*\
   !*** ./js/_script.js ***!
   \***********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("__webpack_require__(/*! ../css/_style.css */ \"./css/_style.css\")\n\n//# sourceURL=webpack:///./js/_script.js?");
+eval("// require('../css/_style.css')\n\n\n\n//# sourceURL=webpack:///./js/_script.js?");
 
 /***/ }),
 
