@@ -1,0 +1,56 @@
+
+/* GLOBAL TAGS */
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+}
+
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 50px;
+  background-color: #000000;
+}
+
+.main-heading {
+  margin: 0 0 34px;
+}
+
+.text-red {
+}
+
+.text-bold {
+}
