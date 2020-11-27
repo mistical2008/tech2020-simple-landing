@@ -1,0 +1,11 @@
+section.section-order
+  h2.visually-hidden Оставьте заявку на подбор персонала
+  div.container
+    form.order-form(action="echo.htmlacademy.ru")
+      legend Начни экономить уже сейчас!
+      input.input.input-name(type="text" name="name" id="input-name" placeholder="Имя")
+      input.input.input-company(type="text" name="name-company" id="input-name-company" placeholder="Наименование компании")
+      input.input.input-phone(type="number" name="phone" id="input-phone" placeholder="Телефон")
+      input.input.input-email(type="email" name="email" id="input-email" placeholder="e-mail")
+      button.btn-send(type="submit")
+    include "includes/key-advantages.pug"
