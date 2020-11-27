@@ -1,11 +1,23 @@
 section.section-order
   h2.visually-hidden Оставьте заявку на подбор персонала
   div.container
-    form.order-form(action="echo.htmlacademy.ru")
+    form.order-form(action="https://echo.htmlacademy.ru/")
       legend Начни экономить уже сейчас!
-      input.input.input-name(type="text" name="name" id="input-name" placeholder="Имя")
-      input.input.input-company(type="text" name="name-company" id="input-name-company" placeholder="Наименование компании")
-      input.input.input-phone(type="number" name="phone" id="input-phone" placeholder="Телефон")
-      input.input.input-email(type="email" name="email" id="input-email" placeholder="e-mail")
-      button.btn-send(type="submit")
-    include "includes/key-advantages.pug"
+      p.input-group
+        label.visually-hidden(for="input-name") Имя
+        br
+        input.input.input-name(type="text" name="name" id="input-name" placeholder="Имя")
+      p.input-group
+        label.visually-hidden(for="input-name-company") Наименование компании
+        br
+        input.input.input-company(type="text" name="name-company" id="input-name-company" placeholder="Наименование компании")
+      p.input-group
+        label.visually-hidden(for="input-phone") Телефон
+        br
+        input.input.input-phone(type="phone" name="phone" id="input-phone" placeholder="Телефон")
+      p.input-group
+        label.visually-hidden(for="input-email") e-mail
+        br
+        input.input.input-email(type="email" name="email" id="input-email" placeholder="e-mail")
+      button.btn-send(type="submit") Оставьте заявку
+    include ../includes/key-advantages.pug
