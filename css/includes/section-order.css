@@ -1,0 +1,40 @@
+.section-order {
+  color: #ffffff;
+  background-image: url("/img/bg-order.jpg");
+  background-repeat: no-repeat;
+  background-position: contain;
+
+  .order-form {
+    padding: 64px 44px 54px;
+    background-color: #f3c500;
+    color: initial;
+
+    .input-group + .input-group {
+      margin-bottom: 20px;
+    }
+  }
+  .small-heading {
+    font-weight: 700;
+  }
+
+  .input {
+    font-size: 15px;
+    color: #a9a9a9;
+    height: 46px;
+    width: 100%;
+    padding: 18px 22px 18px 42px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #bec3c7;
+  }
+
+  .btn-send {
+    font-weight: 400;
+    color: #ffffff;
+    height: 46px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #01a185;
+  }
+
+}
