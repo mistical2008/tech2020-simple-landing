@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"group": "build",
+			"label": "npm: watch",
+			"detail": "cross-env NODE_ENV=development npx webpack-dev-server"
+		}
+	]
+}
