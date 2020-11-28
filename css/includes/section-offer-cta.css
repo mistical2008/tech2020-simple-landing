@@ -1,0 +1,13 @@
+.section-offer-cta {
+    color: #ffffff;
+    background-color: #372d3b;
+
+    .btn-cta {
+       font-weight: 300; 
+       line-height: 54px;
+       height: 54px;
+       background-color: #aa3c57;
+       padding: 0 40px;
+       border-radius: 60px;
+    }
+}
