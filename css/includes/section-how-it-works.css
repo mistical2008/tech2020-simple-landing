@@ -1,0 +1,15 @@
+.section-how-it-works {
+    text-align: center;
+    color: #ffffff;
+    background-color: #372d3b;
+
+    .steps {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .promises {
+        background-color: #b03d58;
+    }
+}
