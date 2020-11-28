@@ -1,0 +1,13 @@
+.section-services {
+    color: #ffffff;
+    background-color: #123c52;
+
+    .item-heading {
+        font-weight: 500;
+    }
+
+    .services_item:hover {
+        color: #000000;
+        background-color: #fcc033;
+    }
+}
