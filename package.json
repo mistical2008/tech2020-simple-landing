@@ -1,8 +1,8 @@
 {
   "name": "trudohod",
   "scripts": {
-    "watch": "cross-env NODE_ENV=development npx webpack-dev-server",
-    "build": "cross-env NODE_ENV=production npx webpack"
+    "watch": "npx cross-env NODE_ENV=development npx webpack-dev-server",
+    "build": "npx cross-env NODE_ENV=production npx webpack"
   },
   "dependencies": {
     "copy-webpack-plugin": "^5.1.1",

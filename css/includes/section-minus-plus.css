@@ -1,0 +1,15 @@
+.section-minus-plus {
+
+  .minuses-item {
+    margin-bottom: 28px;
+  }
+
+  .plus-wrapper {
+    font-size: 22px;
+    line-height: 1.3333;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #1aaf5d;
+  }
+
+}
