@@ -1,1 +1,5 @@
-@import "global.css"
+@import "global.css";
+@import "includes/key-adv.css";
+@import "includes/section-header.css";
+@import "includes/section-about.css";
+

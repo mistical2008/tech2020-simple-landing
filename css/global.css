@@ -3,6 +3,11 @@
 html {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.47;
+  font-weight: 100;
+  color: #212121;
 }
 
 *, *::before, *::after {
@@ -38,16 +43,21 @@ textarea {
   margin: 0;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 50px;
-  background-color: #000000;
 }
 
 .main-heading {
   margin: 0 0 34px;
   font-size: 40px;
+  font-weight: 100;
   line-height: 1;
 }
 
@@ -55,4 +65,5 @@ textarea {
 }
 
 .text-bold {
+  font-weight: 500;
 }

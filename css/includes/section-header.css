@@ -1,0 +1,42 @@
+.section-header {
+    text-align: center;
+    background-image: url("/img/bg-hero@1X.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+    .top-bar {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        .container {
+            display: flex;
+        }
+
+        b {
+        }
+
+        .phone-number {
+            font-weight: 500;
+        }
+    }
+
+    .hero-subheading {
+        font-size: 40px;
+        font-weight: 700;
+        color: #f3c500;
+    }
+
+    .hero-lead {
+        max-width: 254px;
+    }
+
+    .btn-info {
+        background-color: #fcc033;
+        color: #000000;
+        padding: 0 31px;
+        height: 65px;
+        line-height: 65px;
+        border-radius: 60px;
+    }
+}

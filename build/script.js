@@ -86,14 +86,25 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./css/_style.css":
+/*!************************!*\
+  !*** ./css/_style.css ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./css/_style.css?");
+
+/***/ }),
+
 /***/ "./js/_script.js":
 /*!***********************!*\
   !*** ./js/_script.js ***!
   \***********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("// require('../css/_style.css')\n\n\n\n//# sourceURL=webpack:///./js/_script.js?");
+eval("__webpack_require__(/*! ../css/_style.css */ \"./css/_style.css\")\r\n\r\n\n\n//# sourceURL=webpack:///./js/_script.js?");
 
 /***/ }),
 
@@ -468,7 +479,7 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! /home/evgeniy/01_Library/02_repos/067-makeWebLanding2020-repo/node_modules/webpack-dev-server/client/index.js?http://localhost:4000 */\"./node_modules/webpack-dev-server/client/index.js?http://localhost:4000\");\nmodule.exports = __webpack_require__(/*! ./js/_script.js */\"./js/_script.js\");\n\n\n//# sourceURL=webpack:///multi_(webpack)-dev-server/client?");
+eval("__webpack_require__(/*! D:\\Users\\Инженер\\Desktop\\temp\\tech2020-simple-landing\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:4000 */\"./node_modules/webpack-dev-server/client/index.js?http://localhost:4000\");\nmodule.exports = __webpack_require__(/*! ./js/_script.js */\"./js/_script.js\");\n\n\n//# sourceURL=webpack:///multi_(webpack)-dev-server/client?");
 
 /***/ })
 

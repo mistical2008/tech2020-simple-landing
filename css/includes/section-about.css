@@ -1,0 +1,34 @@
+.section-about {
+    .advantages-item {
+        text-align: center;
+
+        & > .desc {
+            font-size: 14px;
+            line-height: 1.57;
+        }
+    }
+
+    .color-box {
+        color: #ffffff;
+    }
+
+    .advantages-item:nth-child(1) .color-box {
+        background-color: #e30016;
+    }
+    .advantages-item:nth-child(2) .color-box {
+        background-color: #fc5620;
+    }
+    .advantages-item:nth-child(3) .color-box {
+        color: #000000;
+        background-color: #fcc033;
+    }
+    .advantages-item:nth-child(4) .color-box {
+        background-color: #0b9a4c;
+    }
+    .advantages-item:nth-child(5) .color-box {
+        background-color: #123c52;
+    }
+    .advantages-item:nth-child(6) .color-box {
+        background-color: #007a78;
+    }
+}
