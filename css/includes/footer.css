@@ -1,0 +1,18 @@
+.footer {
+  background-color: #212121;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1;
+
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .phone-number {
+    color: #f3c500;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
