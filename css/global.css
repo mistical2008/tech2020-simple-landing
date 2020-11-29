@@ -6,7 +6,7 @@ html {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.47;
-  font-weight: 100;
+  font-weight: 300;
   color: #212121;
 }
 
@@ -45,6 +45,8 @@ textarea {
 }
 
 button {
+  font-size: 18px;
+  font-weight: 300;
   background-color: transparent;
   border: none;
 }
@@ -58,7 +60,7 @@ button {
 .main-heading {
   margin: 0 0 34px;
   font-size: 40px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1;
 }
 
