@@ -1,4 +1,13 @@
 .section-warning {
     color: #212121;
+    padding: 50px 97px 72px 211px;
     background-color: #e7e7e7;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-heading {
+        margin-bottom: 20px;
+    }
 }
