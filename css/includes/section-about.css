@@ -1,12 +1,35 @@
 .section-about {
   padding-top: 85px;
 
+  .wrapper {
+    padding-left: 211px;
+    min-height: 232px;
+    /* background-image: url("/img/clock@1X.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* padding-bottom: 20px; */
+    margin-bottom: 50px;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 146px;
+      height: 232px;
+      position: absolute;
+      left: 26px;
+      background-image: url("/img/clock@1X.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding-bottom: 20px;
+    }
+  }
+
   .main-heading {
     margin-bottom: 40px;
   }
 
   .about-intro {
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
 
   .advantages {
