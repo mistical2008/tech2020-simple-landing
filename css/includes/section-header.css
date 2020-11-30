@@ -3,6 +3,7 @@
     background-image: url("/img/bg-hero@1X.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 0;
     color: #ffffff;
     padding-top: 114px;
     position: relative;
