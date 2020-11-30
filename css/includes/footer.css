@@ -5,14 +5,45 @@
   font-weight: 300;
   line-height: 1;
 
-  .logo {
-    font-size: 24px;
-    font-weight: 700;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    * {
+      vertical-align: middle;
+    }
+
+    .logo {
+      display: block;
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 28px;
+      /* min-width: 122px; */
+    }
+  } 
+
+
+  .logo-img {
+    display: inline-block;
+    margin-right: 30px;
   }
 
   .phone-number {
     color: #f3c500;
     font-size: 24px;
     font-weight: 700;
+    margin-left: 45px;
   }
 }
