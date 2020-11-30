@@ -7,12 +7,8 @@
     margin-bottom: 62px;
   }
 
-  .review-text {
-    font-size: 18px;
-    padding: 36px 52px 42px;
-    margin: 0;
-    /* margin-bottom: 47px ; */
-    background-color: #e7e7e7;
+  .avatar {
+    margin-bottom: -2px;
   }
 
   .reviews_item {
@@ -24,8 +20,19 @@
     }
   }
 
-  .avatar {
-    margin-bottom: -2px;
+  .review-text {
+    font-size: 18px;
+    padding: 34px 52px 42px;
+    margin: 0;
+    /* margin-bottom: 47px ; */
+    background-color: #e7e7e7;
   }
+
+  .customer-name {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
 
 }
