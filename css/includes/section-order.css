@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   background-position: contain;
 
+  .container {
+    padding: 342px 0 48px;
+  }
+
   .order-form {
     padding: 64px 44px 54px;
     background-color: #f3c500;
