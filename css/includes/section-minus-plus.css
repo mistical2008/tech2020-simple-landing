@@ -4,6 +4,10 @@
     padding: 55px 210px;
   }
 
+  .main-heading {
+    line-height: 1.25;
+  }
+
   .minuses-item {
     margin-bottom: 28px;
   }
@@ -14,6 +18,10 @@
     font-weight: 400;
     color: #ffffff;
     background-color: #1aaf5d;
+
+    p {
+      margin: 0;
+    }
   }
 
   .minuses-item:last-child {
