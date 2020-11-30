@@ -1,5 +1,9 @@
 .section-minus-plus {
 
+  .container {
+    padding: 55px 210px;
+  }
+
   .minuses-item {
     margin-bottom: 28px;
   }
@@ -10,6 +14,10 @@
     font-weight: 400;
     color: #ffffff;
     background-color: #1aaf5d;
+  }
+
+  .minuses-item:last-child {
+    margin-bottom: 0;
   }
 
 }

@@ -1,6 +1,11 @@
 .section-offer-cta {
     color: #ffffff;
+    padding: 40px 211px 48px;
     background-color: #372d3b;
+
+    .main-heading {
+        margin-bottom: 27px;
+    }
 
     .btn-cta {
        line-height: 54px;
