@@ -1,9 +1,24 @@
 .section-services {
     color: #ffffff;
+    padding: 62px 105px 80px;
     background-color: #123c52;
 
+    .main-heading {
+        margin-bottom: 40px;
+    }
+
     .item-heading {
+        display: block;
         font-weight: 500;
+        margin-bottom: 26px;
+    }
+
+    .item-desc {
+        margin: 0;
+    }
+
+    .services_item {
+        padding: 96px 12px 26px;
     }
 
     .services_item:hover {
