@@ -1,6 +1,31 @@
 .section-reviews {
+  .container {
+    padding: 62px 211px 246px;
+  }
+
+  .main-heading {
+    margin-bottom: 62px;
+  }
+
   .review-text {
+    font-size: 18px;
     padding: 36px 52px 42px;
+    margin: 0;
+    /* margin-bottom: 47px ; */
     background-color: #e7e7e7;
   }
+
+  .reviews_item {
+    font-size: 0;
+    margin-bottom: 47px ;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .avatar {
+    margin-bottom: -2px;
+  }
+
 }
