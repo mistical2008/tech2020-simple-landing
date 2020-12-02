@@ -1,7 +1,10 @@
 .section-offer-cta {
     color: #ffffff;
-    padding: 40px 211px 48px;
     background-color: #372d3b;
+
+    .container {
+        padding: 40px 211px 48px;
+    }
 
     .main-heading {
         margin-bottom: 27px;

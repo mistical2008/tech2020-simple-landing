@@ -1,7 +1,10 @@
 .section-warning {
     color: #212121;
-    padding: 50px 97px 72px 211px;
     background-color: #e7e7e7;
+
+    .container {
+        padding: 50px 97px 72px 211px;
+    }
 
     p:last-child {
         margin-bottom: 0;

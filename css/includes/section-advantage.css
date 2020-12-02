@@ -1,6 +1,9 @@
 .section-advantage {
     text-align: left;
-    padding: 82px 211px 45px; 
+
+    .container {
+        padding: 82px 211px 45px; 
+    }
 
     p:last-child {
         margin-bottom: 0;
