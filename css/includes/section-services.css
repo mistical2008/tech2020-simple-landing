@@ -4,7 +4,13 @@
     background-color: #123c52;
 
     .main-heading {
-        margin-bottom: 40px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .item-heading {
@@ -19,6 +25,8 @@
 
     .services_item {
         padding: 96px 12px 26px;
+        width: 33.3333%;
+        border: 1px solid #0b2b3c;
     }
 
     .services_item:hover {
