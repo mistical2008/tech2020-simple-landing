@@ -1,15 +1,20 @@
 .section-advantage {
-    text-align: left;
+  text-align: left;
 
-    .container {
-        padding: 82px 211px 45px; 
-    }
+  .container {
+    padding: 82px 211px 45px; 
+  }
 
-    p:last-child {
-        margin-bottom: 0;
-    }
+  .description {
+    width: 750px;
+  }
 
-   .text-bold {
-       margin: 0 0 20px 0;
-   }
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+ .text-bold {
+   font-size: 24px;
+   margin: 0 0 20px 0;
+ }
 }

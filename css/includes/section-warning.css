@@ -6,6 +6,10 @@
         padding: 50px 97px 72px 211px;
     }
 
+    p {
+      font-size: 17.7px;
+    }
+
     p:last-child {
         margin-bottom: 0;
     }

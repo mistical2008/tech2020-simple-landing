@@ -7,17 +7,30 @@
     margin-bottom: 62px;
   }
 
-  .avatar {
-    margin-bottom: -2px;
+  .reviews {
+    margin-bottom: -47px;
   }
 
   .reviews_item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
     font-size: 0;
     margin-bottom: 47px ;
 
-    &:last-child {
-      margin-bottom: 0;
+    &:nth-child(even) .avatar {
+      right: -185px;
     }
+
+    &:nth-child(odd) .avatar {
+      left: -185px;
+    }
+  }
+
+  .avatar {
+    position: absolute;
+    margin-bottom: -2px;
   }
 
   .review-text {
