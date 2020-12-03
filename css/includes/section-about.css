@@ -26,7 +26,10 @@
 
   .main-heading {
     margin-bottom: 40px;
-    text-align: center;
+
+    &__offset_md {
+      padding-left: 211px;
+    }
   }
 
   .about-intro {
