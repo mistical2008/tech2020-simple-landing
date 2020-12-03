@@ -1,29 +1,35 @@
 .section-how-it-works {
-    text-align: center;
-    color: #ffffff;
-    background-color: #372d3b;
+  text-align: center;
+  color: #ffffff;
+  background-color: #372d3b;
 
-    .container {
-        padding: 68px 60px 100px 40px;
+  .container {
+    padding: 68px 60px 100px 40px;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    p {
+      margin: 0;
     }
+  }
 
-    .steps {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+  .steps-item {
+    width: 33.3333%;
+  }
 
-        p {
-            margin: 0;
-        }
+  .promises {
+    font-size: 24px;
+    padding: 32px 32px 43px;
+    background-color: #b03d58;
+
+    p {
+      margin: 0;
     }
-
-    .promises {
-        font-size: 24px;
-        padding: 32px 32px 43px;
-        background-color: #b03d58;
-
-        p {
-            margin: 0;
-        }
-    }
+  }
 }
