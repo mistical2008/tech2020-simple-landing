@@ -57,26 +57,35 @@
       color: #ffffff;
       padding: 128px 15px 20px;
       margin-bottom: 30px;
-      height: 
+      /* height:  */
+      background-repeat: no-repeat;
+      background-position: 50% 25px;
+
   }
 
   .advantages-item:nth-child(1) .color-box {
       background-color: #e30016;
+      background-image: url("/img/adv-1@1X.png");
   }
   .advantages-item:nth-child(2) .color-box {
       background-color: #fc5620;
+      background-image: url("/img/adv-2@1X.png");
   }
   .advantages-item:nth-child(3) .color-box {
       color: #000000;
       background-color: #fcc033;
+      background-image: url("/img/adv-3@1X.png");
   }
   .advantages-item:nth-child(4) .color-box {
       background-color: #0b9a4c;
+      background-image: url("/img/adv-4@1X.png");
   }
   .advantages-item:nth-child(5) .color-box {
       background-color: #123c52;
+      background-image: url("/img/adv-5@1X.png");
   }
   .advantages-item:nth-child(6) .color-box {
       background-color: #007a78;
+      background-image: url("/img/adv-6@1X.png");
   }
 }
