@@ -7,12 +7,17 @@
     padding: 68px 60px 100px 40px;
   }
 
+  .main-heading {
+    margin-bottom: 0;
+  }
+
   .steps {
     display: flex;
     justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
+    /* position: relative; */
 
     p {
       margin: 0;
@@ -20,7 +25,22 @@
   }
 
   .steps-item {
+    padding-top: 322px;
     width: 33.3333%;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+
+    &:nth-child(1) {
+      background-image: url("/img/hiw-1@1X.png");
+    }
+
+    &:nth-child(2) {
+      background-image: url("/img/hiw-2@1X.png");
+    }
+
+    &:nth-child(3) {
+      background-image: url("/img/hiw-3@1X.png");
+    }
   }
 
   .promises {
