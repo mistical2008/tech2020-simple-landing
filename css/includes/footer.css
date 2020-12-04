@@ -52,6 +52,20 @@
     margin-left: 45px;
   }
 
+  .email {
+    position: relative;
+  }
+
+  .email::before {
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    left: -23px;
+    top: 2px;
+    content: "";
+    background-image: url("/img/icon-mail@X1.png");
+  }
+
   .created-by {
     display: flex;
     align-items: center;
