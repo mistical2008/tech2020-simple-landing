@@ -39,6 +39,24 @@
     border-radius: 2px;
     background-color: #ffffff;
     border: 1px solid #bec3c7;
+    background-repeat: no-repeat;
+    background-position: 13px 50%;
+  }
+
+  .input-name {
+    background-image: url("/img/icon-name.png");
+  }
+
+  .input-company {
+    background-image: url("/img/icon-company.png");
+  }
+
+  .input-phone {
+    background-image: url("/img/icon-phone.png");
+  }
+
+  .input-email {
+    background-image: url("/img/icon-mail-gray.png");
   }
 
   .btn-send {
