@@ -26,6 +26,16 @@
     &:nth-child(odd) .avatar {
       left: -185px;
     }
+
+    &:nth-child(odd) .review-text::before {
+      left: -26px;
+      border-width: 15px 26px 15px 0;
+    }
+
+    &:nth-child(even) .review-text::before {
+      right: -26px;
+      border-width: 15px 0px 15px 26px;
+    }
   }
 
   .avatar {
@@ -39,6 +49,19 @@
     margin: 0;
     /* margin-bottom: 47px ; */
     background-color: #e7e7e7;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-style: solid;
+      border-color: transparent #e7e7e7 transparent;
+    }
+
   }
 
   .customer-name {
