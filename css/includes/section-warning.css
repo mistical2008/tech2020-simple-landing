@@ -4,6 +4,9 @@
 
     .container {
         padding: 50px 97px 72px 211px;
+        background-image: url("/img/warn@1X.png");
+        background-repeat: no-repeat;
+        background-position: 30px 60px;
     }
 
     p {
