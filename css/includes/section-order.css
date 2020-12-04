@@ -2,14 +2,23 @@
   color: #ffffff;
   background-image: url("/img/bg-order.jpg");
   background-repeat: no-repeat;
-  background-position: contain;
+  background-size: cover;
+  background-position: center top;
+  
+
 
   .container {
     padding: 342px 0 48px;
+    position: relative;
   }
 
   .order-form {
-    padding: 64px 44px 54px;
+    position: absolute;
+    top: -148px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    padding: 38px 44px 50px;
     background-color: #f3c500;
     color: initial;
 
