@@ -49,6 +49,7 @@ button {
   font-weight: 300;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -86,3 +87,5 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
