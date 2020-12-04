@@ -1,12 +1,17 @@
 .key-adv {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1140px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .key-adv-item {
-  max-width: 262px;
+  /* max-width: 262px; */
+  width: calc( 33.3333%  - 80px);
   text-align: left;
   padding-left: 68px;
+  margin: 0 15px;
   position: relative;
 
   &::before {
